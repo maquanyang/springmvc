@@ -23,6 +23,7 @@ public class TestController {
     @ResponseBody
     public String test1(){
         Test t = new Test();
+        System.out.println("test1");
         return JSONObject.toJSONString(t);
     }
 }
