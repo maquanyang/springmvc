@@ -24,6 +24,7 @@ public class TestController {
     public String test1(){
         Test t = new Test();
         System.out.println("test1");
+        System.out.println("test1-----test2");
         return JSONObject.toJSONString(t);
     }
 }
