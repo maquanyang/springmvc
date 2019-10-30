@@ -28,6 +28,7 @@ public class TestController {
         System.out.println("test3-----test3");
         System.out.println("test4-----test4");
         System.out.println("test5-----test5");
+        t.setName("xiaoma");
         return JSONObject.toJSONString(t);
     }
 }
